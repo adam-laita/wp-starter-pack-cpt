@@ -1,0 +1,352 @@
+/*----------------------------------------------------------------- */
+/* MAIN
+/*----------------------------------------------------------------- */
+
+/* GENERAL
+----------------------------------------- */
+html
+{
+	font-size: 62.5%; /* Size constant for easier use rem -> 18px = 1.8rem etc. */
+	line-height: normal; /* Fix normalize.css. */
+
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: inherit;
+}
+
+body
+{
+	font-family: sans-serif;
+	font-size: 1.8rem;
+	font-weight: normal;
+
+	text-align: left;
+
+	color: #000;
+	background: #fff;
+}
+
+h1
+{
+	font-size: 3.8rem;
+}
+
+h2
+{
+	font-size: 3rem;
+}
+
+h3
+{
+	font-size: 2.2rem;
+}
+
+h4
+{
+	font-size: 1.8rem;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.container
+{
+	position: relative;
+
+	max-width: 1200px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.row
+{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.row_justify-space
+{
+	justify-content: space-between;
+}
+
+.row_align-center
+{
+	align-items: center;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text
+{
+	position: absolute;
+
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+
+	word-wrap: normal !important;
+
+	border: 0;
+
+	clip-path: inset(50%);
+}
+
+.screen-reader-text:focus
+{
+	font-size: 1em;
+	line-height: normal;
+
+	z-index: 100000; /* Above WP toolbar. */
+	top: 5px;
+	left: 5px;
+
+	display: block;
+	clip: auto !important;
+
+	width: auto;
+	height: auto;
+	padding: 15px 23px 14px;
+
+	text-decoration: none;
+
+	color: #444;
+	background-color: #eee;
+
+	clip-path: none;
+}
+
+@media (max-width: 1260px)
+{
+	.container
+	{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+
+@media (max-width: 760px)
+{
+	.container
+	{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+/* HEADER
+----------------------------------------- */
+header .container
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	border-bottom: 1px solid #000;
+}
+
+.main-menu
+{
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.main-menu > li
+{
+	margin-right: 15px;
+}
+
+.main-menu > li:last-child
+{
+	margin-right: 0;
+}
+
+.main-menu .current-menu-item a
+{
+	pointer-events: none;
+
+	color: #f00;
+}
+
+@media (max-width: 760px)
+{
+	header .container > .row
+	{
+		display: block;
+	}
+
+	.navigation
+	{
+		margin-top: 15px;
+	}
+}
+
+/* CONTENT
+----------------------------------------- */
+.single-post article,
+.loop-post,
+.inner-wrapper
+{
+	width: calc(100% - 300px - 30px); /* 100% - sidebar width - margin */
+}
+
+@media (max-width: 960px)
+{
+	.single-post article,
+	.loop-post,
+	.inner-wrapper
+	{
+		width: 100%;
+	}
+}
+
+/* ARCHIVE */
+.loop-wrapper__item
+{
+	width: calc(50% - 15px);
+	margin: 30px 0;
+}
+
+@media (max-width: 760px)
+{
+	.loop-wrapper__item
+	{
+		width: calc(50% - 7.5px);
+		margin: 15px 0;
+	}
+}
+
+@media (max-width: 600px)
+{
+	.loop-wrapper__item
+	{
+		width: 100%;
+	}
+}
+
+/* PAGINATION */
+.pagination
+{
+	padding: 20px 0;
+
+	text-align: center;
+
+	border-top: 1px solid #000;
+}
+
+.pagination .current,
+.post-nav-links .current
+{
+	color: #f00;
+}
+
+/* COMMENTS */
+.commentlist,
+.commentlist ul
+{
+	list-style-type: none;
+}
+
+.commentlist
+{
+	padding: 0;
+}
+
+.commentlist > li
+{
+	border-bottom: 1px solid #000;
+}
+
+.commentlist ul li
+{
+	border-top: 1px solid #000;
+}
+
+.comment-body
+{
+	padding: 10px 0;
+}
+
+.comment-form-comment label
+{
+	display: block;
+}
+
+.comment-form-comment textarea
+{
+	width: 100%;
+	height: 150px;
+}
+
+/* SIDEBAR */
+.sidebar
+{
+	width: 300px;
+}
+
+@media (max-width: 960px)
+{
+	.sidebar
+	{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		width: 100%;
+	}
+
+	.sidebar section
+	{
+		max-width: 300px;
+		margin: 15px 30px;
+	}
+}
+
+@media (max-width: 760px)
+{
+	.sidebar section
+	{
+		margin: 7.5px 15px;
+	}
+}
+
+/* FOOTER
+----------------------------------------- */
+footer
+{
+	margin-top: 100px;
+}
+
+footer .container
+{
+	font-size: 1.6rem;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	border-top: 1px solid #000;
+}

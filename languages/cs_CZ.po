@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSP\n"
+"POT-Creation-Date: 2021-05-06 18:45+0200\n"
+"PO-Revision-Date: 2021-05-06 18:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: Adam Laita <adam@laita.cz>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: 404.php:11
+msgid "Page Not Found"
+msgstr "Stránka nenalezena"
+
+#: 404.php:13
+msgid ""
+"It looks like you've visited an invalid link. Please try another page from "
+"the main site navigation."
+msgstr ""
+"Zdá se, že jste navštívili neplatný odkaz. Zkuste prosím jinou stránku z "
+"hlavní navigace webu."
+
+#: components/loop-recipe.php:46 components/loop.php:32
+msgid "More..."
+msgstr "Více..."
+
+#: functions.php:15
+msgid "Main navigation"
+msgstr "Hlavní navigace"
+
+#: functions.php:23
+msgid "Sidebar"
+msgstr "Postranní panel"
+
+#: functions.php:24
+msgid "Default sidebar"
+msgstr "Výchozí postranní panel"
+
+#: functions.php:106
+msgid "Archive"
+msgstr "Archiv"
+
+#: functions.php:120 functions.php:122
+msgid "Recipes"
+msgstr "Recepty"
+
+#: functions.php:121 functions.php:123 functions.php:150
+msgid "Recipe"
+msgstr "Recept"
+
+#: functions.php:124
+msgid "Recipe Archives"
+msgstr "Recepty"
+
+#: functions.php:125
+msgid "Recipe Attributes"
+msgstr "Vlastnosti receptu"
+
+#: functions.php:126
+msgid "Parent Recipe:"
+msgstr "Nadřazený recept:"
+
+#: functions.php:127
+msgid "All Recipes"
+msgstr "Všechny recepty"
+
+#: functions.php:128
+msgid "Add New Recipe"
+msgstr "Přidat nový recept"
+
+#: functions.php:129
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: functions.php:130
+msgid "New Recipe"
+msgstr "Nový recept"
+
+#: functions.php:131
+msgid "Edit Recipe"
+msgstr "Upravit recept"
+
+#: functions.php:132
+msgid "Update Recipe"
+msgstr "Aktualizovat recept"
+
+#: functions.php:133
+msgid "View Recipe"
+msgstr "Zobrazit recept"
+
+#: functions.php:134
+msgid "View Recipes"
+msgstr "Zobrazit recepty"
+
+#: functions.php:135
+msgid "Search Recipe"
+msgstr "Vyhledat recept"
+
+#: functions.php:136
+msgid "Not found"
+msgstr "Nenalezeno"
+
+#: functions.php:137
+msgid "Not found in Trash"
+msgstr "V koši nenalezeno"
+
+#: functions.php:138
+msgid "Featured Image"
+msgstr "Náhledový obrázek"
+
+#: functions.php:139
+msgid "Set featured image"
+msgstr "Nastavit náhledový obrázek"
+
+#: functions.php:140
+msgid "Remove featured image"
+msgstr "Odstranit náhledový obrázek"
+
+#: functions.php:141
+msgid "Use as featured image"
+msgstr "Použít jako náhledový obrázek"
+
+#: functions.php:142
+msgid "Insert into recipe"
+msgstr "Vložit do receptu"
+
+#: functions.php:143
+msgid "Uploaded to this recipe"
+msgstr "Nahráno k tomuto receptu"
+
+#: functions.php:144
+msgid "Recipes list"
+msgstr "Seznam receptů"
+
+#: functions.php:145
+msgid "Recipes list navigation"
+msgstr "Navigace seznamu receptů"
+
+#: functions.php:146
+msgid "Filter recipes list"
+msgstr "Filtr seznamu receptů"
+
+#: functions.php:152
+msgid "New post type for Recipes"
+msgstr "Nový obsahový typ pro Recepty"
+
+#: functions.php:173 functions.php:175
+msgid "Categories"
+msgstr "Kategorie"
+
+#: functions.php:174
+msgid "Category"
+msgstr "Kategorie"
+
+#: functions.php:176
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#: functions.php:177
+msgid "Parent Category"
+msgstr "Nadřazená kategorie"
+
+#: functions.php:178
+msgid "Parent Category:"
+msgstr "Nadřazená kategorie:"
+
+#: functions.php:179
+msgid "New Category Name"
+msgstr "Nový název kategorie"
+
+#: functions.php:180
+msgid "Add New Category"
+msgstr "Přidat novou kategorii"
+
+#: functions.php:181
+msgid "Edit Category"
+msgstr "Upravit kategorii"
+
+#: functions.php:182
+msgid "Update Category"
+msgstr "Aktualizovat kategorii"
+
+#: functions.php:183
+msgid "View Category"
+msgstr "Zobrazit kategorii"
+
+#: functions.php:184
+msgid "Separate categories with commas"
+msgstr "Oddělte kategorie čárkami"
+
+#: functions.php:185
+msgid "Add or remove categories"
+msgstr "Přidat/odebrat kategorie"
+
+#: functions.php:186
+msgid "Choose from the most used"
+msgstr "Vybrat z nejpoužívanějších"
+
+#: functions.php:187
+msgid "Popular Categories"
+msgstr "Oblíbené kategorie"
+
+#: functions.php:188
+msgid "Search Categories"
+msgstr "Vyhledat kategorie"
+
+#: functions.php:189
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: functions.php:190
+msgid "No categories"
+msgstr "Žádné kategorie"
+
+#: functions.php:191
+msgid "Categories list"
+msgstr "Seznam kategorií"
+
+#: functions.php:192
+msgid "Categories list navigation"
+msgstr "Navigace seznamu kategorií"
+
+#: functions.php:197
+msgid "New taxonomy for Recipes categories"
+msgstr "Nová taxonomie pro Kategorie receptů"
+
+#: index.php:20
+msgid "Search"
+msgstr "Vyhledávání"
+
+#: page-sidebar.php:9
+msgid "Sidebar template"
+msgstr "Šablona s postranním panelem"
+
+#~ msgid "Login"
+#~ msgstr "Uživatelské jméno"
+
+#~ msgid "Hello world"
+#~ msgstr "Ahoj světe"
+
+#~ msgid "Standard sidebar on blog and in articles"
+#~ msgstr "Standardní sidebar na blogu a v článcích"

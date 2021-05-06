@@ -1,0 +1,248 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSP\n"
+"POT-Creation-Date: 2021-05-06 18:45+0200\n"
+"PO-Revision-Date: 2016-11-27 21:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: Adam Laita <adam@laita.cz>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: 404.php:11
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid "It looks like you've visited an invalid link. Please try another page from the main site navigation."
+msgstr ""
+
+#: components/loop-recipe.php:46 components/loop.php:32
+msgid "More..."
+msgstr ""
+
+#: functions.php:15
+msgid "Main navigation"
+msgstr ""
+
+#: functions.php:23
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:24
+msgid "Default sidebar"
+msgstr ""
+
+#: functions.php:106
+msgid "Archive"
+msgstr ""
+
+#: functions.php:120 functions.php:122
+msgid "Recipes"
+msgstr ""
+
+#: functions.php:121 functions.php:123 functions.php:150
+msgid "Recipe"
+msgstr ""
+
+#: functions.php:124
+msgid "Recipe Archives"
+msgstr ""
+
+#: functions.php:125
+msgid "Recipe Attributes"
+msgstr ""
+
+#: functions.php:126
+msgid "Parent Recipe:"
+msgstr ""
+
+#: functions.php:127
+msgid "All Recipes"
+msgstr ""
+
+#: functions.php:128
+msgid "Add New Recipe"
+msgstr ""
+
+#: functions.php:129
+msgid "Add New"
+msgstr ""
+
+#: functions.php:130
+msgid "New Recipe"
+msgstr ""
+
+#: functions.php:131
+msgid "Edit Recipe"
+msgstr ""
+
+#: functions.php:132
+msgid "Update Recipe"
+msgstr ""
+
+#: functions.php:133
+msgid "View Recipe"
+msgstr ""
+
+#: functions.php:134
+msgid "View Recipes"
+msgstr ""
+
+#: functions.php:135
+msgid "Search Recipe"
+msgstr ""
+
+#: functions.php:136
+msgid "Not found"
+msgstr ""
+
+#: functions.php:137
+msgid "Not found in Trash"
+msgstr ""
+
+#: functions.php:138
+msgid "Featured Image"
+msgstr ""
+
+#: functions.php:139
+msgid "Set featured image"
+msgstr ""
+
+#: functions.php:140
+msgid "Remove featured image"
+msgstr ""
+
+#: functions.php:141
+msgid "Use as featured image"
+msgstr ""
+
+#: functions.php:142
+msgid "Insert into recipe"
+msgstr ""
+
+#: functions.php:143
+msgid "Uploaded to this recipe"
+msgstr ""
+
+#: functions.php:144
+msgid "Recipes list"
+msgstr ""
+
+#: functions.php:145
+msgid "Recipes list navigation"
+msgstr ""
+
+#: functions.php:146
+msgid "Filter recipes list"
+msgstr ""
+
+#: functions.php:152
+msgid "New post type for Recipes"
+msgstr ""
+
+#: functions.php:173 functions.php:175
+msgid "Categories"
+msgstr ""
+
+#: functions.php:174
+msgid "Category"
+msgstr ""
+
+#: functions.php:176
+msgid "All Categories"
+msgstr ""
+
+#: functions.php:177
+msgid "Parent Category"
+msgstr ""
+
+#: functions.php:178
+msgid "Parent Category:"
+msgstr ""
+
+#: functions.php:179
+msgid "New Category Name"
+msgstr ""
+
+#: functions.php:180
+msgid "Add New Category"
+msgstr ""
+
+#: functions.php:181
+msgid "Edit Category"
+msgstr ""
+
+#: functions.php:182
+msgid "Update Category"
+msgstr ""
+
+#: functions.php:183
+msgid "View Category"
+msgstr ""
+
+#: functions.php:184
+msgid "Separate categories with commas"
+msgstr ""
+
+#: functions.php:185
+msgid "Add or remove categories"
+msgstr ""
+
+#: functions.php:186
+msgid "Choose from the most used"
+msgstr ""
+
+#: functions.php:187
+msgid "Popular Categories"
+msgstr ""
+
+#: functions.php:188
+msgid "Search Categories"
+msgstr ""
+
+#: functions.php:189
+msgid "Not Found"
+msgstr ""
+
+#: functions.php:190
+msgid "No categories"
+msgstr ""
+
+#: functions.php:191
+msgid "Categories list"
+msgstr ""
+
+#: functions.php:192
+msgid "Categories list navigation"
+msgstr ""
+
+#: functions.php:197
+msgid "New taxonomy for Recipes categories"
+msgstr ""
+
+#: index.php:20
+msgid "Search"
+msgstr ""
+
+#: page-sidebar.php:9
+msgid "Sidebar template"
+msgstr ""
+
+#~ msgid "Login"
+#~ msgstr "Uživatelské jméno"
+
+#~ msgid "Hello world"
+#~ msgstr "Ahoj světe"
+
+#~ msgid "Standard sidebar on blog and in articles"
+#~ msgstr "Standardní sidebar na blogu a v článcích"
