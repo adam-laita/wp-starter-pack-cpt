@@ -2,7 +2,7 @@
 
 WP Starter Pack is a simple template for explaining the structure and basic principles of creating a WordPress Theme.
 
-**To download a template, click on the following link - [wp-starter-pack-cpt.zip](https://github.com/adam-laita/wp-starter-pack-cpt/releases/latest/download/wp-starter-pack-cpt.zip)**
+**To download the latest release, click on the following link - [wp-starter-pack-cpt.zip](https://github.com/adam-laita/wp-starter-pack-cpt/releases/latest/download/wp-starter-pack-cpt.zip)**
 
 ___
 
