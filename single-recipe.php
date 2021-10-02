@@ -11,14 +11,14 @@
 		<article <?php post_class(); ?>>
 			<?php
 				while ( have_posts() ) {
-					the_post(); 
+					the_post();
 					?>
 						<h1><?php single_post_title(); ?></h1>
 
 						<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php the_time( 'd. m. Y' ); ?></time>
 
 						<?php 
-							the_author(); 
+							the_author();
 							
 							$recipeCategories = get_the_terms( get_the_ID(), 'recipe_category' );
 

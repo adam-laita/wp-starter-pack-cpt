@@ -18,7 +18,7 @@
 	/* ------------------------------ SIDEBARS ------------------------------ */
 
 	// Builds the definition for a single sidebar and returns the ID.
-	register_sidebar( 
+	register_sidebar(
 		array(
 			'name' => __( 'Sidebar', 'wpsp' ),
 			'description' => __( 'Default sidebar', 'wpsp' ),
@@ -147,9 +147,8 @@
 		);
 
 		$args = array(
-			'label'                 => __( 'Recipe', 'wpsp' ),
 			'labels'                => $labels,
-			'description'           => __( 'New post type for Recipes', 'wpsp' ),
+			'description'           => __( 'New post type called Recipes.', 'wpsp' ),
 			'public'                => true,
 			'show_in_admin_bar'     => false,
 			'show_in_rest'          => true,
@@ -158,7 +157,7 @@
 			'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ),
 			'taxonomies'            => array( 'recipe_category' ),
 			'has_archive'           => true,
-			'rewrite'               => array( 'slug' => 'recepty' ),	
+			'rewrite'               => array( 'slug' => 'recepty' ),
 		);
 
 		register_post_type( 'recipe', $args );
@@ -194,7 +193,7 @@
 
 		$args = array(
 			'labels'                     => $labels,
-			'description'                => __( 'New taxonomy for Recipes categories', 'wpsp' ),
+			'description'                => __( 'New taxonomy for Recipes.', 'wpsp' ),
 			'public'                     => true,
 			'hierarchical'               => true,
 			'show_in_rest'               => true,

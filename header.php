@@ -2,7 +2,7 @@
 	/**
 	 * The template for displaying the header.
 	 * 
-	 * Contains <head> section. 
+	 * Contains <head> section.
 	 */
 ?>
 
@@ -35,14 +35,14 @@
 					</a>
 
 					<?php
-						wp_nav_menu( 
+						wp_nav_menu(
 							array(
-								'theme_location' => 'main-menu', 
-								'container' => 'nav', 
+								'theme_location' => 'main-menu',
+								'container' => 'nav',
 								'container_class' => 'navigation',
 								'menu_class' => 'main-menu row',
 								'fallback_cb' => false
-							) 
+							)
 						);
 					?>
 				</div>
