@@ -21,8 +21,8 @@
 
 	<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php the_time( 'd. m. Y' ); ?></time>
 
-	<?php 
-		the_author(); 
+	<?php
+		the_author();
 
 		$recipeCategories = get_the_terms( get_the_ID(), 'recipe_category' );
 

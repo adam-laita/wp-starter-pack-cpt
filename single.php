@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * This is the default template for detail of a post. 
+	 * This is the default template for detail of a post.
 	 */
 
 	get_header();
@@ -18,8 +18,8 @@
 						?>
 							<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php the_time( 'd. m. Y' ); ?></time>
 
-							<?php 
-								the_author_posts_link(); 
+							<?php
+								the_author_posts_link();
 								
 								the_category();
 									
@@ -34,7 +34,7 @@
 						<?php
 					}
 
-					if ( comments_open() || get_comments_number() ) {
+					if ( comments_open() || !empty( get_comments_number() ) ) {
 						comments_template();
 					}
 				?>

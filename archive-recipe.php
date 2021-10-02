@@ -14,7 +14,7 @@
 			<div class="row row_justify-space">
 				<?php
 					while ( have_posts() ) {
-						the_post();  
+						the_post();
 
 						get_template_part( 'components/loop', 'recipe' );
 					}
@@ -26,7 +26,7 @@
 					array(
 						'prev_text' => '&laquo;',
 						'next_text' => '&raquo;'
-					) 
+					)
 				);
 			?>
 		</div>

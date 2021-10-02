@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WPSP\n"
-"POT-Creation-Date: 2021-05-06 18:45+0200\n"
-"PO-Revision-Date: 2021-05-06 18:45+0200\n"
+"POT-Creation-Date: 2021-10-02 16:33+0200\n"
+"PO-Revision-Date: 2021-10-02 16:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: Adam Laita <adam@laita.cz>\n"
 "Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -53,7 +53,7 @@ msgstr "Archiv"
 msgid "Recipes"
 msgstr "Recepty"
 
-#: functions.php:121 functions.php:123 functions.php:150
+#: functions.php:121 functions.php:123
 msgid "Recipe"
 msgstr "Recept"
 
@@ -149,89 +149,89 @@ msgstr "Navigace seznamu receptů"
 msgid "Filter recipes list"
 msgstr "Filtr seznamu receptů"
 
-#: functions.php:152
-msgid "New post type for Recipes"
-msgstr "Nový obsahový typ pro Recepty"
+#: functions.php:151
+msgid "New post type called Recipes."
+msgstr "Nový obsahový typ s názvem Recepty."
 
-#: functions.php:173 functions.php:175
+#: functions.php:172 functions.php:174
 msgid "Categories"
 msgstr "Kategorie"
 
-#: functions.php:174
+#: functions.php:173
 msgid "Category"
 msgstr "Kategorie"
 
-#: functions.php:176
+#: functions.php:175
 msgid "All Categories"
 msgstr "Všechny kategorie"
 
-#: functions.php:177
+#: functions.php:176
 msgid "Parent Category"
 msgstr "Nadřazená kategorie"
 
-#: functions.php:178
+#: functions.php:177
 msgid "Parent Category:"
 msgstr "Nadřazená kategorie:"
 
-#: functions.php:179
+#: functions.php:178
 msgid "New Category Name"
 msgstr "Nový název kategorie"
 
-#: functions.php:180
+#: functions.php:179
 msgid "Add New Category"
 msgstr "Přidat novou kategorii"
 
-#: functions.php:181
+#: functions.php:180
 msgid "Edit Category"
 msgstr "Upravit kategorii"
 
-#: functions.php:182
+#: functions.php:181
 msgid "Update Category"
 msgstr "Aktualizovat kategorii"
 
-#: functions.php:183
+#: functions.php:182
 msgid "View Category"
 msgstr "Zobrazit kategorii"
 
-#: functions.php:184
+#: functions.php:183
 msgid "Separate categories with commas"
 msgstr "Oddělte kategorie čárkami"
 
-#: functions.php:185
+#: functions.php:184
 msgid "Add or remove categories"
 msgstr "Přidat/odebrat kategorie"
 
-#: functions.php:186
+#: functions.php:185
 msgid "Choose from the most used"
 msgstr "Vybrat z nejpoužívanějších"
 
-#: functions.php:187
+#: functions.php:186
 msgid "Popular Categories"
 msgstr "Oblíbené kategorie"
 
-#: functions.php:188
+#: functions.php:187
 msgid "Search Categories"
 msgstr "Vyhledat kategorie"
 
-#: functions.php:189
+#: functions.php:188
 msgid "Not Found"
 msgstr "Nenalezeno"
 
-#: functions.php:190
+#: functions.php:189
 msgid "No categories"
 msgstr "Žádné kategorie"
 
-#: functions.php:191
+#: functions.php:190
 msgid "Categories list"
 msgstr "Seznam kategorií"
 
-#: functions.php:192
+#: functions.php:191
 msgid "Categories list navigation"
 msgstr "Navigace seznamu kategorií"
 
-#: functions.php:197
-msgid "New taxonomy for Recipes categories"
-msgstr "Nová taxonomie pro Kategorie receptů"
+#: functions.php:196
+msgid "New taxonomy for Recipes."
+msgstr "Nová taxonomie pro Recepty."
 
 #: index.php:20
 msgid "Search"

@@ -44,7 +44,7 @@
 						array(
 							'prev_text' => '&laquo;',
 							'next_text' => '&raquo;'
-						) 
+						)
 					);
 				?>
 			</div>
