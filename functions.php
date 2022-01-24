@@ -150,7 +150,6 @@
 			'labels'                => $labels,
 			'description'           => __( 'New post type called Recipes.', 'wpsp' ),
 			'public'                => true,
-			'show_in_admin_bar'     => false,
 			'show_in_rest'          => true,
 			'menu_position'         => 6,
 			'menu_icon'             => 'dashicons-carrot',
