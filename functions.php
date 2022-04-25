@@ -3,30 +3,37 @@
 	 * Functions and definitions.
 	 */
 
-	/* ------------------------------ LANGUAGES ------------------------------ */
+	// Fires after the theme is initialized.
+	add_action( 'after_setup_theme', 'wpsp_setup', 0 );
 
-	// Load the theme’s translated strings.
-	load_theme_textdomain( 'wpsp', get_template_directory() . '/languages' );
+	function wpsp_setup() {
 
-	/* ------------------------------ MENUS ------------------------------ */
+		/* ------------------------------ LANGUAGES ------------------------------ */
 
-	// Registers navigation menu locations for a theme (Appearance -> Menu).
-	register_nav_menus( array(
-		'main-menu' => __( 'Main navigation', 'wpsp' )
-	) );
+		// Load the theme’s translated strings.
+		load_theme_textdomain( 'wpsp', get_template_directory() . '/languages' );
 
-	/* ------------------------------ SIDEBARS ------------------------------ */
+		/* ------------------------------ MENUS ------------------------------ */
 
-	// Builds the definition for a single sidebar and returns the ID.
-	register_sidebar(
-		array(
-			'name' => __( 'Sidebar', 'wpsp' ),
-			'description' => __( 'Default sidebar', 'wpsp' ),
-			'id' => 'sidebar',
-			'before_widget' => '<section id="%1$s" class="%2$s">',
-			'after_widget' => '</section>'
-		)
-	);
+		// Registers navigation menu locations for a theme (Appearance -> Menu).
+		register_nav_menus( array(
+			'main-menu' => __( 'Main navigation', 'wpsp' )
+		) );
+
+		/* ------------------------------ SIDEBARS ------------------------------ */
+
+		// Builds the definition for a single sidebar and returns the ID.
+		register_sidebar(
+			array(
+				'name' => __( 'Sidebar', 'wpsp' ),
+				'description' => __( 'Default sidebar', 'wpsp' ),
+				'id' => 'sidebar',
+				'before_widget' => '<section id="%1$s" class="%2$s">',
+				'after_widget' => '</section>'
+			)
+		);
+
+	}
 
 	/* ------------------------------ ASSETS ------------------------------ */
 
